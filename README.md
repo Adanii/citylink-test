@@ -1,5 +1,18 @@
 # Expenses Tracker
 
+## Getting Started
+
+To run this project:
+
+1. Ensure you have Flutter installed and set up on your machine.
+2. Clone this repository.
+3. Run `flutter pub get` to install dependencies.
+4. Create a `.env` file in the root directory and add your API base URL:
+   ```
+   BASE_URL=https://6966720ff6de16bde44d7056.mockapi.io/transaction
+   ```
+5. Run the app using `flutter run`.
+
 A Flutter application for tracking personal expenses and income. This app allows users to add, view, and delete transactions, as well as monitor their total balance.
 
 ## Features
@@ -113,17 +126,5 @@ The app uses **Riverpod** for state management:
 - **flutter_dotenv**: For managing environment variables, such as the API base URL.
 - **flutter_riverpod**: For state management.
 
-## Getting Started
-
-To run this project:
-
-1. Ensure you have Flutter installed and set up on your machine.
-2. Clone this repository.
-3. Run `flutter pub get` to install dependencies.
-4. Create a `.env` file in the root directory and add your API base URL:
-   ```
-   BASE_URL=https://6966720ff6de16bde44d7056.mockapi.io/transaction
-   ```
-5. Run the app using `flutter run`.
 
 
